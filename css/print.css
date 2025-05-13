@@ -1,0 +1,60 @@
+@import url("index.css");
+
+* {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff !important;
+  height: 93vh !important;
+}
+
+span {
+  font-size: 1em;
+}
+
+.titulo {
+  font-size: 1.5em !important;
+}
+
+.qr-desc {
+  font-size: 0.8em;
+}
+
+.texto-inferior {
+  top: 0;
+  left: 0;
+  height: 7vh;
+}
+
+#imprimirBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
+  margin: 20px 30px;
+  padding: 8px 10px;
+  background-color: green;
+  color: #fff;
+}
+
+#nomeUsuario,
+#dataAtual {
+  font-weight: bold;
+}
+
+@media print {
+  #imprimirBtn {
+    display: none;
+  }
+
+  @page {
+    size: a4 landscape;
+    margin: 0;
+  }
+}

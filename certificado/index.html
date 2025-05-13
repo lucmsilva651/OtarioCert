@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/print.css">
+  <title>Geração do certificado</title>
+</head>
+<body>
+  <span id="imprimirBtn">Imprimir certificado</span>
+  <main>
+    <p class="titulo">Certificado do Ser Otário</p>
+    <div class="texto-certificado">
+      <p>Este documento serve para fins de certificar que <span id="nomeUsuario">????</span> é um<span id="pronomeUsuario">?</span> otári<span id="pronomeUsuario2">?</span>.</p>
+      <p>Data do certificado: <span id="dataAtual">????</span></p>
+    </div>
+    <div class="qr-code">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Rickrolling_QR_code.png" alt="?" width="90" height="90">
+      <p class="qr-desc">Escaneie esse QR code para mais detalhes</p>
+    </div>
+  </main>
+  <span class="texto-inferior">Este documento não tem valor legal nenhum.</span>
+  <script type="module" src="../js/gerarCertificado.js"></script>
+</body>
+</html>
