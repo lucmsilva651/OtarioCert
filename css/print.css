@@ -39,6 +39,7 @@ span {
   border-radius: 5px;
   margin: 20px 30px;
   padding: 8px 10px;
+  cursor: pointer;
   background-color: green;
   color: #fff;
 }
